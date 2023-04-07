@@ -36,3 +36,6 @@ boxToggleTwo.addEventListener('click', () => {
         boxToggleThree.textContent = 'Click';
       }
     });
+
+// const buttToggle = document.querySelector('butt');
+// buttToggle.addEventListener

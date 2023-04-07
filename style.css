@@ -74,3 +74,20 @@ body {
     padding: 10px;
     border: 1px solid black;
 }
+
+.butt {
+    border: 1px outset blue;
+    background-color: lightBlue;
+    cursor:pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 2px 2px 0px;
+    height: 10rem;
+}
+ 
+ .butt:hover {
+    background-color: blue;
+    color:white;
+ }
