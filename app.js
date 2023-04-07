@@ -28,4 +28,4 @@ document.querySelector('.scroll-up').addEventListener('click', function() {
     currentIndex--;
     sections[currentIndex].scrollIntoView({behavior: 'smooth'});
   }
-});
+})
