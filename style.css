@@ -1,93 +1,32 @@
-* {
-    font-family: sans-serif;
-    background-color: gray;
-}
 body {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50% 50%;
+	border: 1px solid black;
+	background-color: #A5A5A5;
+	color: #000000;
 }
 
-#header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0px 2px 2px 0px;
-}
-#toggle {
-    font-size: 18px;
-    font-weight: bold;
-    background-color: transparent;
-    border: 1px solid black;
-    cursor: pointer;
-}
-#content{
-    display: none;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0px 2px 2px 0px;
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
-#header-two {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0px 2px 2px 0px;
-}
-#toggle-two {
-    font-size: 18px;
-    font-weight: bold;
-    background-color: transparent;
-    border: 1px solid black;
-    cursor: pointer;
-
-}
-#content-two {
-    display: none;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0px 2px 2px 0px;
+.section-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
-#header-three {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0px 2px 2px 0px;
+.color-swap-button {
+	position: absolute;
+	top: 50%;
+    right: 0;
+	transform: translateY(-50%);
+	background-color: #C5C5C5;
+	border: none;
+	padding: 10px 20px;
+	color: #000000;
+	cursor: pointer;
 }
-#toggle-three {
-    font-size: 18px;
-    font-weight: bold;
-    background-color: transparent;
-    border: 1px solid black;
-    cursor: pointer;
-
-}
-#content-three {
-    display: none;
-    padding: 10px;
-    border: 1px solid black;
-}
-
-.butt {
-    border: 1px outset blue;
-    background-color: lightBlue;
-    cursor:pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin: 0px 2px 2px 0px;
-    height: 10rem;
-}
- 
- .butt:hover {
-    background-color: blue;
-    color:white;
- }
